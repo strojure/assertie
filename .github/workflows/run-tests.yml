@@ -5,6 +5,7 @@ on:
     paths: [ "src/**", "test/**", "project.clj" ]
   pull_request:
     paths: [ "src/**", "test/**", "project.clj" ]
+  workflow_dispatch: {}
 
 jobs:
   build:
