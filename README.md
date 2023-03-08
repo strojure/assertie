@@ -5,6 +5,7 @@ Macros for runtime assertion in Clojure(Script).
 [![Clojars Project](https://img.shields.io/clojars/v/com.github.strojure/assertie.svg)](https://clojars.org/com.github.strojure/assertie)
 
 [![cljdoc badge](https://cljdoc.org/badge/com.github.strojure/assertie)](https://cljdoc.org/d/com.github.strojure/assertie)
+[![cljs compatible](https://img.shields.io/badge/cljs-compatible-green)](https://clojurescript.org/)
 [![tests](https://github.com/strojure/assertie/actions/workflows/tests.yml/badge.svg)](https://github.com/strojure/assertie/actions/workflows/tests.yml)
 
 ## Motivation
