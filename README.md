@@ -2,8 +2,10 @@
 
 Macros for runtime assertion in Clojure(Script).
 
-[![cljdoc badge](https://cljdoc.org/badge/com.github.strojure/assertie)](https://cljdoc.org/d/com.github.strojure/assertie)
 [![Clojars Project](https://img.shields.io/clojars/v/com.github.strojure/assertie.svg)](https://clojars.org/com.github.strojure/assertie)
+
+[![cljdoc badge](https://cljdoc.org/badge/com.github.strojure/assertie)](https://cljdoc.org/d/com.github.strojure/assertie)
+[![tests](https://github.com/strojure/assertie/actions/workflows/tests.yml/badge.svg)](https://github.com/strojure/assertie/actions/workflows/tests.yml)
 
 ## Motivation
 
