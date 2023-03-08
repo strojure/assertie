@@ -1,4 +1,4 @@
-(ns project.readme.api-02-assert-expr
+(ns readme.api-02-assert-expr
   (:require [strojure.assertie.core :as a :include-macros true]))
 
 (a/assert-expr (= 1 (inc 0)))

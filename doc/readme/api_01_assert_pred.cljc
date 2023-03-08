@@ -1,4 +1,4 @@
-(ns project.readme.api-01-assert-pred
+(ns readme.api-01-assert-pred
   (:require [strojure.assertie.core :as a :include-macros true]))
 
 (a/assert-pred "1" string?)

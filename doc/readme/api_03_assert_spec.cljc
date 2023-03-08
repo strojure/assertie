@@ -1,4 +1,4 @@
-(ns project.readme.api-03-assert-spec
+(ns readme.api-03-assert-spec
   (:require [clojure.spec.alpha :as s]
             [strojure.assertie.spec-alpha :as a :include-macros true]))
 

@@ -23,7 +23,7 @@ Runtime asserts with better reporting about failed asserting value.
 Main macro to assert value/expression by predicate function.
 
 ```clojure
-(ns project.readme.api-01-assert-pred
+(ns readme.api-01-assert-pred
   (:require [strojure.assertie.core :as a :include-macros true]))
 
 (a/assert-pred "1" string?)
@@ -51,7 +51,7 @@ Main macro to assert value/expression by predicate function.
 Secondary macro similar to `clojure.core/assert`.
 
 ```clojure
-(ns project.readme.api-02-assert-expr
+(ns readme.api-02-assert-expr
   (:require [strojure.assertie.core :as a :include-macros true]))
 
 (a/assert-expr (= 1 (inc 0)))
@@ -72,7 +72,7 @@ Custom macro to assert against spec. This macro is an example of implementation
 of new macros on top of `assertie`.
 
 ```clojure
-(ns project.readme.api-03-assert-spec
+(ns readme.api-03-assert-spec
   (:require [clojure.spec.alpha :as s]
             [strojure.assertie.spec-alpha :as a :include-macros true]))
 

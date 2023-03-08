@@ -8,6 +8,7 @@
   :profiles {:provided {:dependencies [[org.clojure/clojure "1.11.1"]
                                        [org.clojure/clojurescript "1.11.60"]]}
              :dev,,,,, {:dependencies [;; clojurescript repl deps
-                                       [com.google.guava/guava "31.1-jre"]]}}
+                                       [com.google.guava/guava "31.1-jre"]]
+                        :source-paths ["doc"]}}
 
   :deploy-repositories [["clojars" {:url "https://clojars.org/repo" :sign-releases false}]])
