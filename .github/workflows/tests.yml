@@ -15,6 +15,8 @@ jobs:
       - name: checkout
         uses: actions/checkout@v3
 
+      - run: lein deps
+
       - run: lein test
 
       - run: lein cljs-test
