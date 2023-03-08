@@ -35,7 +35,7 @@
     #?(:clj
        [{:ex-message "Message - Assert failed: (assert-spec 1 :test/string)",
          :ex-data {}}
-        {:ex-message "Spec assertion failed\n1 - failed: string?\r\n",
+        {:ex-message (str "Spec assertion failed\n1 - failed: string?" (System/getProperty "line.separator")),
          :ex-data #:clojure.spec.alpha{:problems [{:path [], :pred 'clojure.core/string?, :val 1, :via [], :in []}],
                                        :spec :test/string,
                                        :value 1,
