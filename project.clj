@@ -1,7 +1,7 @@
 (defproject com.github.strojure/assertie "1.0.1-13"
   :description "Macros for runtime assertion in Clojure(Script)."
   :url "https://github.com/strojure/assertie"
-  :license {:name "The MIT License" :url "http://opensource.org/licenses/MIT"}
+  :license {:name "Unlicense" :url "https://unlicense.org"}
 
   :dependencies []
 
